@@ -1,0 +1,54 @@
+<?php
+// Start session
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Reservation System</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container {
+            width: 400px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0px 0px 10px #999;
+            border-radius: 10px;
+        }
+        a {
+            display: block;
+            background: #007bff;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Online Reservation System</h1>
+
+    <a href="login.php">Login</a>
+    <a href="reservation.php">Reservation</a>
+    <a href="cancel.php">Cancel Ticket</a>
+</div>
+
+</body>
+</html>
